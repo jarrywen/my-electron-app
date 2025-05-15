@@ -14,6 +14,7 @@ module.exports = {
     {
       name: '@electron-forge/maker-zip',
       platforms: ['darwin'],
+      arch: ['x64', 'arm64'], // 同时支持 Intel 和 ARM 架构
     },
     {
       name: '@electron-forge/maker-deb',
@@ -46,11 +47,11 @@ module.exports = {
       name: '@electron-forge/publisher-github',
       config: {
         repository: {
-          owner: 'jarrywen',
-          name: 'my-electron-app'
+          owner: 'jarrywen', // 替换为你的 GitHub 用户名
+          name: 'my-electron-app', // 替换为你的仓库名称
         },
         prerelease: false,
-        draft: true
+        draft: false // 正式版本设置为 false
       }
     }
   ]
