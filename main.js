@@ -3,6 +3,7 @@ const path = require('node:path')
 require('update-electron-app')()
 console.log('Hello from main process!')
 
+console.log('version v1.0.2!')
 const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
