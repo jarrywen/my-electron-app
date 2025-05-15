@@ -10,7 +10,7 @@ updateElectronApp({
 const path = require('node:path')
 console.log('Hello from main process!')
 
-console.log('version v1.0.4!')
+console.log('version v1.0.5!')
 const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
