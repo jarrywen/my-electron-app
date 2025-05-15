@@ -1,6 +1,6 @@
 const { app, BrowserWindow, ipcMain } = require('electron/main')
 const path = require('node:path')
-
+require('update-electron-app')()
 console.log('Hello from main process!')
 
 const createWindow = () => {
