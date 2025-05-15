@@ -1,0 +1,27 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "electron demo",
+  "main": "main.js",
+  "scripts": {
+    "run": "electron .",
+    "start": "electron-forge start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
+  },
+  "keywords": [
+    "electron",
+    "demo",
+    "sample",
+    "learn"
+  ],
+  "author": "jack",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.8.1",
+    "@electron-forge/publisher-github": "^7.8.1",
+    "electron": "^36.2.0"
+  }
+}
