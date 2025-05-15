@@ -14,7 +14,7 @@ module.exports = {
     {
       name: '@electron-forge/maker-zip',
       platforms: ['darwin'],
-      arch: ['x64', 'arm64'], // 同时支持 Intel 和 ARM 架构
+      // arch: ['x64', 'arm64'], // 同时支持 Intel 和 ARM 架构
     },
     {
       name: '@electron-forge/maker-deb',
